@@ -1,8 +1,8 @@
 class HashMap:
 
     def __init__(self):
-        self.MAX = 50
-        self.arr = [[] for i in range(self.MAX)]
+        self.MAX = 25
+        self.arr = [[] for i in range(self.MAX*4)]
 
     def getKey(self, ch):
         if isinstance(ch, str):
